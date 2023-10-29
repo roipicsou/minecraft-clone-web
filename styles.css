@@ -1,0 +1,88 @@
+/* Reset des styles de base */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barre de navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* En-tête */
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Section principale de contenu */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+main h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styles pour les captures d'écran (à personnaliser) */
+.screenshots {
+    display: flex;
+    justify-content: space-between;
+}
+
+.screenshots img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Ajoutez d'autres styles personnalisés ici */
